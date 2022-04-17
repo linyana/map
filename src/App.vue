@@ -23,5 +23,6 @@ export default {
 
 body {
     background-image: url(./assets/images/map.png);
+    background-size: 100 100%;
 }
 </style>
