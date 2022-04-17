@@ -2,15 +2,17 @@
     <div>
         <Nav />
         <Search />
+        <Pannel />
     </div>
 </template>
 
 <script>
 import Nav from "./components/Nav";
 import Search from "./components/Search";
+import Pannel from "./components/Pannel"
 
 export default {
-    components: { Nav, Search },
+    components: { Nav, Search, Pannel },
 };
 </script>
 
