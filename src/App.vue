@@ -1,22 +1,15 @@
 <template>
-    <div>
+    <div id="app">
         <Nav />
-        <Search />
-        <Pannel />
-        <Show />
         <router-view></router-view>
     </div>
 </template>
 
 <script>
 import Nav from "./components/Nav";
-import Search from "./components/Search";
-import Pannel from "./components/Pannel";
-import Show from "./components/Show";
 
 export default {
-    components: { Nav, Search, Pannel, Show },
-
+    components: { Nav },
 };
 </script>
 
@@ -27,11 +20,14 @@ export default {
     margin: 0;
 }
 
-body,html {
+body,
+html {
     height: 100%;
     width: 100%;
     overflow-x: hidden;
-    background-image: url(./assets/images/map.png);
-    background-size: 100 100%;
+}
+
+#app {
+    height: calc(100% - 60px);
 }
 </style>

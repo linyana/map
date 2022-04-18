@@ -46,7 +46,7 @@ export default {
 #pannel {
     display: flex;
     position: absolute;
-    left: calc(80% + 5px);
+    right: 30px;
     top: 80px;
     width: 300px;
     display: flex;

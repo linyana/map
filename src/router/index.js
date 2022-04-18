@@ -1,11 +1,16 @@
 import VueRouter from 'vue-router'
 
 import Login from '../pages/Login'
+import Map from '../pages/Map'
 
 export default new VueRouter({
     routes: [
         {
             path: '/index',
+            component: Map
+        },
+        {
+            path: '/login',
             component: Login
         }
     ],

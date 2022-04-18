@@ -4,7 +4,9 @@
         <div class="menu">
             <div class="menu_box">
                 <span class="menu_box_img_span menu_box_img_span1"></span>
-                <span class="menu_box_text_span">首页</span>
+                <span class="menu_box_text_span">
+                    <router-link to="./index">首页</router-link>
+                </span>
             </div>
             <div class="menu_box">
                 <span class="menu_box_img_span menu_box_img_span2"></span>
@@ -136,6 +138,11 @@ export default {};
 </script>
 
 <style scoped>
+a {
+    text-decoration: none;
+    color: white;
+}
+
 #nav {
     width: 100%;
     height: 60px;
