@@ -29,9 +29,9 @@
 
 <script>
 export default {
-    data(){
-        return{
-            isClicked: false
+    data() {
+        return {
+            isClicked: false,
         };
     },
     methods: {
