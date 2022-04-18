@@ -2,12 +2,12 @@
     <div id="nav">
         <div class="nav_title">草原资源智能化管理平台</div>
         <div class="menu">
-            <div class="menu_box">
-                <span class="menu_box_img_span menu_box_img_span1"></span>
-                <span class="menu_box_text_span">
-                    <router-link to="./index">首页</router-link>
-                </span>
-            </div>
+            <router-link to="./index">
+                <div class="menu_box">
+                    <span class="menu_box_img_span menu_box_img_span1"></span>
+                    <span class="menu_box_text_span">首页</span>
+                </div>
+            </router-link>
             <div class="menu_box">
                 <span class="menu_box_img_span menu_box_img_span2"></span>
                 <span class="menu_box_text_span">信息展示</span>
@@ -138,11 +138,6 @@ export default {};
 </script>
 
 <style scoped>
-a {
-    text-decoration: none;
-    color: white;
-}
-
 #nav {
     width: 100%;
     height: 60px;
@@ -168,6 +163,11 @@ a {
     width: 600px;
     height: 60px;
     line-height: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 .menu_box {
