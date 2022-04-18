@@ -4,6 +4,7 @@
         <Search />
         <Pannel />
         <Show />
+        <router-view></router-view>
     </div>
 </template>
 
@@ -15,6 +16,7 @@ import Show from "./components/Show";
 
 export default {
     components: { Nav, Search, Pannel, Show },
+
 };
 </script>
 
